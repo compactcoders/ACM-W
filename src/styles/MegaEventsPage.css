@@ -1,0 +1,26 @@
+#Mevents{
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    color: lightgray;
+    padding: 15px;
+}
+.events-container {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 20px;
+}
+#me{
+    color: lightgray;
+    font-weight: normal;
+    text-align: left;
+    font-family:Arial, sans-serif;
+    font-size: 18px;
+}
+#da{
+    color: lightgray;
+    font-weight: normal;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}

@@ -1,0 +1,17 @@
+body{
+    background-color: hsl(0, 0%, 10%);
+    margin : 10px 40px 10px 30px;
+    border: 1px solid;
+    border-color: mintcream;
+    border-radius: 20px;
+  }
+  
+  #root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: inherit;
+  }
+  div{
+    margin: 10px;
+  }

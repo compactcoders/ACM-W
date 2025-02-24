@@ -1,0 +1,134 @@
+.navbar {
+    background-color: transparent;
+    color: white;
+    padding: 5px 16px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.navbar-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    padding-top: 5px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.navbar-logo {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar-links li {
+    display: inline;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+}
+
+.navbar-links li {
+    display: inline;
+    position: relative;
+}
+.navbar-links a,
+.navbar-links .dropdown-button {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Verdana", Geneva, Tahoma, sans-serif;
+    border-radius: 4px;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar-links a:hover,
+.navbar-links .dropdown-button:hover {
+    text-decoration: underline;
+    color: hsl(0, 0%, 90%);
+}
+.navbar-links .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    z-index: 100;
+    min-width: 120px;
+}
+
+
+.navbar-links .dropdown:hover .dropdown-menu,
+.navbar-links .dropdown:focus-within .dropdown-menu {
+    display: block;
+}
+
+.navbar-links .dropdown-menu li {
+    padding: 8px 16px;
+}
+
+.navbar-links .dropdown-menu li a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    transition: text-decoration 0.3s ease, color 0.3s ease;
+}
+
+.navbar-links .dropdown-menu li a:hover {
+    text-decoration: underline;
+    color: hsl(0, 0%, 90%);
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 16px;
+        height: auto;
+    }
+    .noti
+
+    .navbar-links {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .navbar-links a,
+    .navbar-links .dropdown-button {
+        text-align: left;
+        width: 100%;
+    }
+}
