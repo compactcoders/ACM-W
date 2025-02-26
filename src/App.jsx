@@ -9,8 +9,6 @@ import MembershipACM from "./components/MembershipACM";
 import Testimonials from "./components/Testimonials";
 import ShareYourThoughts from "./components/ShareYourThoughts"; 
 
-
-
 const App = () => {
     return (
         <Router>
