@@ -1,0 +1,63 @@
+.home-page {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+  }
+  
+  .hero-section {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #6b00ff, #000);
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .highlight {
+    color: #ff4081;
+  }
+  
+  .about-us, .achievements, .share-thoughts, .contact-us {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .video-container {
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .achievement-slider {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px;
+    scrollbar-width: none;
+  }
+  
+  .achievement-card {
+    background: #4a148c;
+    padding: 15px;
+    min-width: 200px;
+    border-radius: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 24px;
+  }
+  
+  .social-icons i {
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .social-icons i:hover {
+    transform: scale(1.2);
+  }
+  

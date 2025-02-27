@@ -22,7 +22,7 @@ const Navbar = () => {
             <div className="navbar-right">
                 <ul className="navbar-links">
                     <li>
-                        <Link to="/home">Home</Link>
+                        <Link to="/">Home</Link>
                     </li>
                     <li className="dropdown">
                         <button
