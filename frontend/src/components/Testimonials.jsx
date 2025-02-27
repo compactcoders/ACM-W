@@ -2,8 +2,9 @@ import React, { useState, useRef, useEffect } from 'react';
 
 import "./Navbar"
 import { useNavigate } from 'react-router-dom';
-
+import TestimonialCard from "./TestimonialCard";
 import testimonials from '../data/TestimonialsData';
+import '../styles/Testimonials.css';
 
 
 const Testimonials = () => {
