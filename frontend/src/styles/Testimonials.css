@@ -1,13 +1,5 @@
 /* Testimonials Container */
-.testimonials-container {
-    background-color: #121212; /* Black background */
-    color: #fff; /* White text */
-    padding: 50px 50px;
-    text-align: center;
-    border-radius: 0px;
-    position: relative;
-    
-  }
+
   
   /* Section Title */
   .testimonials-container h2 {
