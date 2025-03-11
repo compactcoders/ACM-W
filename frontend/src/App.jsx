@@ -11,6 +11,7 @@ import MembershipACM from "./components/MembershipACM";
 import Testimonials from "./components/Testimonials";
 import ShareYourThoughts from "./components/ShareYourThoughts";
 import CoreTeam from "./components/Coreteam";
+import Blogs from "./components/Blogs";
 
 const App = () => {
     const [backendData, setBackendData] = useState(null);
@@ -49,6 +50,7 @@ const App = () => {
                 <Route path="/testimonials" element={<Testimonials />} />
                 <Route path="/share-your-thoughts" element={<ShareYourThoughts />} />
                 <Route path="/core-team" element={<CoreTeam />} />
+                <Route path="/blogs" element={<Blogs />} />
             </Routes>
         </Router>
     );
