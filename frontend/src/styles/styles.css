@@ -1,55 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 /* Core Team Section */
 .core-team {
-  padding: 1rem;
   color: #ffffff;
-  margin-top: 90px; /* ✅ Pushes it below the navbar */
+  margin-top: 100px; /* Pushes below the navbar */
 }
 
 .core-team h1 {
+  
   text-align: left;
   margin-left: 2rem;
   font-family: 'Press Start 2P', sans-serif;
   font-size: 2.5rem;
   text-transform: uppercase;
-}
-.core-team h1 p{
-  font-size: large;
+  margin-bottom: 50px; /* Added spacing below heading */
 }
 
 .core-team h2 {
   text-align: left;
   margin-left: 15rem;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Jersey 25', sans-serif;
   font-weight: 200;
   font-size: 2rem;
   text-transform: uppercase;
+  margin-bottom: 40px; /* Space below paragraph */
 }
+
+.core-team p {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  margin-bottom: 100px;
+}
+
 
 .core-team h3 {
   text-align: left;
+  font-family: 'Jersey 25', sans-serif;
   margin-left: 15rem;
   font-size: 1.5rem;
+  margin-bottom: 40px; /* Increased space before next section */
+}
+
+.core-team h2 {
+  background: linear-gradient(#ff00ff, #a258e4, #00ffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.core-team h3 {
+  background: linear-gradient(#ffcfff, #d0a6f5, #b6ffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* Member Cards Container */
 .core-category, .faculty-coordinators, .office-bearers {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Center content */
-  gap: 30px; /* Space between cards */
+  justify-content: center;
+  gap: 20px; /* Space between cards */
+  margin: 0;
+  margin-top: 40px; /* Space between sections */
+  margin-bottom: 40px;
 }
 
 /* Style for Each Member Card */
 .member-card {
   display: flex;
-  width: 45%; /* Ensure two cards per row */
+  width: 45%;
   align-items: center;
-  padding: 20px;
-  gap: 30px; /* Space between image and text */
+  gap: 20px; /* Space between image and text */
   border-radius: 10px;
-  background: transparent; /* Subtle background */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background: transparent;;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -59,11 +81,11 @@
 
 /* Profile Picture */
 .member-card img {
-  width: 200px; /* Adjust size */
-  height: 200px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #6c1a80; /* Circle border */
+  border: 3px solid #1a1a80;
 }
 
 /* Member Information */
@@ -71,7 +93,7 @@
   display: flex;
   flex-direction: column;
   text-align: left;
-  flex-grow: 1; /* Makes text take remaining space */
+  flex-grow: 1;
 }
 
 .member-info h3 {
@@ -102,18 +124,20 @@
 }
 
 .social-icon:hover {
-  color: #1a1a80; /* Hover effect */
+  color: #1a1a80;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
   .member-card {
     flex-direction: column;
-    width: 100%; /* Full width on small screens */
+    width: 100%;
     text-align: center;
   }
 
   .member-card img {
+    width: 160px;
+    height: 160px;
     margin-bottom: 10px;
   }
 
