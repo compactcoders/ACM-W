@@ -1,9 +1,9 @@
 const membershipData = {
-    title: "MEMBERSHIP",
+    title: "ACM-W MEMBERSHIP",
     sections: [
         {
-            sectionTitle: "Join Our Community",
-            content: "Join ACM-W and become part of a global network of computing professionals. Our membership provides you with exclusive access to resources, events, and networking opportunities that will help advance your career in technology.",
+            sectionTitle: "Overview",
+            content: "Lorem ipsum odor amet, consectetuer adipiscing elit. Torquent taciti ridiculus efficitur magna lectus metus. Egestas elementum class platea nisi phasellus enim orci nam. Taciti etiam lectus ac porttitor phasellus netus mattis sit. Accumsan ligula phasellus curabitur porttitor ante posuere. Vivamus lacinia fames euismod porttitor quis. Sit nibh habitant nostra imperdiet fermentum. Montes nullam faucibus torquent tellus nunc praesent dis sagittis? Mattis ullamcorper consequat mus potenti; a aliquam. Elit ac varius tincidunt sagittis viverra lobortis tempus. Nibh diam luctus primis potenti viverra; scelerisque nibh. Vivamus sagittis fusce non habitant curabitur praesent. Feugiat vehicula nullam porttitor malesuada natoque sagittis tristique aliquam. Consectetur ut lacus class pharetra lectus. Lorem ipsum odor amet, consectetuer adipiscing elit. Torquent taciti ridiculus efficitur magna lectus metus. Egestas elementum class platea nisi phasellus enim orci nam. Taciti etiam lectus ac porttitor phasellus netus mattis sit. Accumsan ligula phasellus curabitur porttitor ante posuere. Vivamus lacinia fames euismod porttitor quis. Sit nibh habitant nostra imperdiet fermentum. Montes nullam faucibus torquent tellus nunc praesent dis sagittis? Mattis ullamcorper consequat mus potenti; a aliquam. Elit ac varius tincidunt sagittis viverra lobortis tempus. Nibh diam luctus primis potenti viverra; scelerisque nibh. Vivamus sagittis fusce non habitant curabitur praesent. Feugiat vehicula nullam porttitor malesuada natoque sagittis tristique aliquam. Consectetur ut lacus class pharetra lectus.",
             benefits: [
                 {
                     title: "Networking Opportunities",
@@ -25,7 +25,7 @@ const membershipData = {
         },
         {
             sectionTitle: "Become a Member",
-            content: "Choose your preferred membership type below to begin your journey with ACM-W. Our team will guide you through the process.",
+            content: "Lorem ipsum odor amet, consectetuer adipiscing elit. Torquent taciti ridiculus efficitur magna lectus metus. Egestas elementum class platea nisi phasellus enim orci nam. Taciti etiam lectus ac porttitor phasellus netus mattis sit. Lorem ipsum odor amet, consectetuer adipiscing elit. Torquent taciti ridiculus efficitur magna lectus metus. Egestas elementum class platea nisi phasellus enim orci nam. Taciti etiam lectus ac porttitor phasellus netus mattis sit. Lorem ipsum odor amet, consectetuer adipiscing elit. Torquent taciti ridiculus efficitur magna lectus metus. Egestas elementum class platea nisi phasellus enim orci nam. Taciti etiam lectus ac porttitor phasellus netus mattis sit.",
             membershipLinks: [
                 {
                     text: "Join Internal Membership",
