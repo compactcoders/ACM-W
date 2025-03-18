@@ -20,38 +20,38 @@ import divya from "../assets/Divya.png";
 
 const CoreTeam = () => {
   const officeBearers = [
-    { name: "Benita Grace", role: "Chair", tagline: "Transforming the landscape through innovative leadership", imageUrl: benita, linkedinUrl: "https://www.linkedin.com/in/benita-grace-966184253", instagramUrl: "https://www.instagram.com/benita.grace18" },
-    { name: "Hanna Elsa Jaiju", role: "Vice Chair", tagline: "Where vision meets strategic direction", imageUrl: hanna, linkedinUrl: "https://www.linkedin.com/in/hannaelsajaiju" },
-    { name: "Kalaipriya S", role: "Secretary", tagline: "The Keeper of the Narrative", imageUrl: kalai, linkedinUrl:"http://www.linkedin.com/in/kalaipriya-suresh-270b55287", instagramUrl: "https://www.instagram.com/kalai._.priya" },
-    { name: "Jeyasri KS", role: "Treasurer", tagline: "Where financial expertise meets strategic vision", imageUrl: jeyasri, linkedinUrl:"https://www.linkedin.com/in/jeyasri-ks-1310b8288", instagramUrl: "https://www.instagram.com/_.jeyasri28._" },
+    { name: "Ms.Benita Grace", role: "Chair", tagline: "Transforming the landscape through innovative leadership", imageUrl: benita, linkedinUrl: "https://www.linkedin.com/in/benita-grace-966184253", instagramUrl: "https://www.instagram.com/benita.grace18" },
+    { name: "Ms.Hanna Elsa Jaiju", role: "Vice Chair", tagline: "Where vision meets strategic direction", imageUrl: hanna, linkedinUrl: "https://www.linkedin.com/in/hannaelsajaiju" },
+    { name: "Ms.Kalaipriya S", role: "Secretary", tagline: "The Keeper of the Narrative", imageUrl: kalai, linkedinUrl:"http://www.linkedin.com/in/kalaipriya-suresh-270b55287", instagramUrl: "https://www.instagram.com/kalai._.priya" },
+    { name: "Ms.Jeyasri KS", role: "Treasurer", tagline: "Where financial expertise meets strategic vision", imageUrl: jeyasri, linkedinUrl:"https://www.linkedin.com/in/jeyasri-ks-1310b8288", instagramUrl: "https://www.instagram.com/_.jeyasri28._" },
   ];
 
   const coreMembers = {
     Management: [
-      { name: "Kavirithanya", role: "Management Lead", tagline: "Executing plans with precision and purpose", imageUrl: kavirithanya, linkedinUrl:"https://www.linkedin.com/in/kavirithanya-52093a251", instagramUrl:"https://www.instagram.com/kavirithanya" },
-      { name: "Freneta", role: "Management Co-lead", tagline: "Fueling the fire of innovation", imageUrl: freneta, linkedinUrl:"https://www.linkedin.com/in/freneta-amalraj-11bab72a8", instagramUrl: "https://www.instagram.com/freneta_fries" },
+      { name: "Ms.Kavirithanya", role: "Management Lead", tagline: "Executing plans with precision and purpose", imageUrl: kavirithanya, linkedinUrl:"https://www.linkedin.com/in/kavirithanya-52093a251", instagramUrl:"https://www.instagram.com/kavirithanya" },
+      { name: "Ms.Freneta", role: "Management Co-lead", tagline: "Fueling the fire of innovation", imageUrl: freneta, linkedinUrl:"https://www.linkedin.com/in/freneta-amalraj-11bab72a8", instagramUrl: "https://www.instagram.com/freneta_fries" },
     ],
     Technical: [
-      { name: "Renusri", role: "Technical Lead", tagline: "Crafting vision that brings ideas to life.", imageUrl: renusri, linkedinUrl: "https://www.linkedin.com/in/renusri-s-413938246", instagramUrl: "https://www.instagram.com/renusris_01" },
-      { name: "Priyadarshini", role: "Technical Co-lead", tagline: "Design solutions that inspire and elevate.", imageUrl: priya, linkedinUrl: "http://www.linkedin.com/in/priyadharshini-r-9a756a288", instagramUrl: "https://www.instagram.com/prrriiiyaaa_" },
+      { name: "Ms.Renusri", role: "Technical Lead", tagline: "Crafting vision that brings ideas to life.", imageUrl: renusri, linkedinUrl: "https://www.linkedin.com/in/renusri-s-413938246", instagramUrl: "https://www.instagram.com/renusris_01" },
+      { name: "Ms.Priyadarshini", role: "Technical Co-lead", tagline: "Design solutions that inspire and elevate.", imageUrl: priya, linkedinUrl: "http://www.linkedin.com/in/priyadharshini-r-9a756a288", instagramUrl: "https://www.instagram.com/prrriiiyaaa_" },
     ],
     Content: [
-      { name: "Virutika", role: "Content Lead", tagline: "The architect of innovative solutions in tech", imageUrl: virutika, linkedinUrl: "https://www.linkedin.com/in/virutika-pugazhendhi-7699482a0", instagramUrl: "https://www.instagram.com/_.virutika._" },
-      { name: "Chandra", role: "Content Co-lead", tagline: "Pioneering innovative solutions, one code at a time", imageUrl: chandra, linkedinUrl: "https://www.linkedin.com/in/sashritha-chandra-8a9586319", instagramUrl: "https://www.instagram.com/sashritha34" },
+      { name: "Ms.Virutika", role: "Content Lead", tagline: "The architect of innovative solutions in tech", imageUrl: virutika, linkedinUrl: "https://www.linkedin.com/in/virutika-pugazhendhi-7699482a0", instagramUrl: "https://www.instagram.com/_.virutika._" },
+      { name: "Ms.Chandra", role: "Content Co-lead", tagline: "Pioneering innovative solutions, one code at a time", imageUrl: chandra, linkedinUrl: "https://www.linkedin.com/in/sashritha-chandra-8a9586319", instagramUrl: "https://www.instagram.com/sashritha34" },
     ],
     Design: [
-      { name: "Janapriya", role: "Design Lead", tagline: "Transforming ideas into engaging content", imageUrl: janapriya, linkedinUrl: "https://www.linkedin.com/in/janapriya-s-11j01" },
-      { name: "Paveethra", role: "Design Co-lead", tagline: "Crafting compelling stories that resonate", imageUrl: paveethra, linkedinUrl: "https://www.linkedin.com/in/pavethraa09", instagramUrl: "https://www.instagram.com/invites/contact" },
+      { name: "Ms.Janapriya", role: "Design Lead", tagline: "Transforming ideas into engaging content", imageUrl: janapriya, linkedinUrl: "https://www.linkedin.com/in/janapriya-s-11j01" },
+      { name: "Ms.Paveethra", role: "Design Co-lead", tagline: "Crafting compelling stories that resonate", imageUrl: paveethra, linkedinUrl: "https://www.linkedin.com/in/pavethraa09", instagramUrl: "https://www.instagram.com/invites/contact" },
     ],
     Media: [
-      { name: "Koushika", role: "Media Lead", tagline: "The intersection of media and creativity", imageUrl: koushika, linkedinUrl: "https://www.linkedin.com/in/koushika-ramesh-b70a78315" },
-      { name: "Dhanashree", role: "Media Co-lead", tagline: "The art of storytelling, perfected.", imageUrl: dhanashree, linkedinUrl: "https://www.linkedin.com/in/dhanashree-elumalai-436b55311", instagramUrl: "https://www.instagram.com/dhanucore._" },
+      { name: "Ms.Koushika", role: "Media Lead", tagline: "The intersection of media and creativity", imageUrl: koushika, linkedinUrl: "https://www.linkedin.com/in/koushika-ramesh-b70a78315" },
+      { name: "Ms.Dhanashree", role: "Media Co-lead", tagline: "The art of storytelling, perfected.", imageUrl: dhanashree, linkedinUrl: "https://www.linkedin.com/in/dhanashree-elumalai-436b55311", instagramUrl: "https://www.instagram.com/dhanucore._" },
     ],
   };
 
   const facultyCoordinators = [
     { name: "Dr.S.Saranya", role: "Coordinator", tagline: "", imageUrl: saranya },
-    { name: "Divya", role: "Coordinator", tagline: "", imageUrl: divya }
+    { name: "Dr.Divya", role: "Coordinator", tagline: "", imageUrl: divya }
   ];
 
   return (

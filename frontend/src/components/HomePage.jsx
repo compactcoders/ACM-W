@@ -10,10 +10,9 @@ const HomePage = () => {
       {/* Hero Section */}
       <section className="hero-section">
         <div className="hero-content">
-          <h1>ACM-W SIST <span>STUDENT CHAPTER</span></h1>
+          <h1>ACM-W <span>SATHYABAMA</span> <span>STUDENT CHAPTER</span></h1>
           <p>Empowering Women in Computing and Beyond</p>
         </div>
-        <img src={homeBg} alt="Background" className="hero-image" />
       </section>
 
       {/* About Us Section */}

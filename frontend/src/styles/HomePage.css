@@ -1,264 +1,286 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Poppins:wght@300;400;600&display=swap');
 
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1b1b2f;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Poppins:wght@300;400;600&display=swap');
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1b1b2f;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* 🚀 Hero Section */
 .hero-section {
   position: relative;
-  z-index: 1;
-  width: 100vw; /* ✅ Full width */
-  height: 100vh; /* ✅ Full height */
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; /* Align text to the top */
-  align-items: flex-start; /* Align text to the left */
-  padding: 10rem 5rem; /* Adjust padding for spacing */
-  text-align: left;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #0a0a1a; /* Deep dark night background */
+  overflow: hidden;
 }
 
-/* ✅ Rounded Gradient Patch at Bottom Right */
-.hero-section::before {
+/* 🌌 Animated Starry Background */
+.hero-section::before,
+.hero-section::after {
   content: "";
   position: absolute;
-  bottom: -20%;
-  right: -10%;
-  width: 50vw; /* ✅ Adjust size of the patch */
-  height: 50vw;
-  background: radial-gradient(circle, 
-  #972BFF 56%, 
-  #00D4FF 51%, 
-  #00D4FF 64%, 
-  #00D4FF 82%
-);
-  border-radius: 50%; /* ✅ Makes it circular */
-  z-index: 0; /* ✅ Behind the content */
-  filter: blur(100px); /* ✅ Softens the edges for a glow effect */
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: transparent;
+  z-index: -1;
+  animation: twinkle 10s infinite linear;
 }
 
-/* Ensure text scales properly */
+/* ✨ Small Glowing Stars */
+.hero-section::before {
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 2px, transparent 10px) 10px 10px,
+              radial-gradient(circle, rgba(255, 255, 255, 0.6) 1.5px, transparent 8px) 50px 50px,
+              radial-gradient(circle, rgba(255, 255, 255, 0.8) 2px, transparent 10px) 150px 80px,
+              radial-gradient(circle, rgba(255, 255, 255, 0.6) 1.5px, transparent 8px) 200px 150px,
+              radial-gradient(circle, rgba(255, 255, 255, 0.8) 2px, transparent 10px) 300px 200px,
+              radial-gradient(circle, rgba(255, 255, 255, 0.6) 1.5px, transparent 8px) 400px 300px;
+  background-size: 400px 400px;
+}
+
+/* ✨ Twinkling Effect */
+.hero-section::after {
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.5) 2px, transparent 10px) 20px 30px,
+              radial-gradient(circle, rgba(255, 255, 255, 0.4) 1.5px, transparent 8px) 60px 100px,
+              radial-gradient(circle, rgba(255, 255, 255, 0.5) 2px, transparent 10px) 120px 160px,
+              radial-gradient(circle, rgba(255, 255, 255, 0.4) 1.5px, transparent 8px) 250px 180px,
+              radial-gradient(circle, rgba(255, 255, 255, 0.5) 2px, transparent 10px) 350px 250px,
+              radial-gradient(circle, rgba(255, 255, 255, 0.4) 1.5px, transparent 8px) 450px 320px;
+  background-size: 400px 400px;
+  opacity: 0.8;
+  animation: twinkle 5s infinite alternate;
+}
+
+/* 🌠 Twinkling Animation */
+@keyframes twinkle {
+  0% { opacity: 0.3; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.1); }
+  100% { opacity: 0.4; transform: scale(1); }
+}
+
+/* 🎨 Hero Content Styling */
 .hero-content {
-  max-width: 800px;
-  z-index: 1; /* ✅ Ensure text is above the gradient */
+  max-width: 900px;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease-in-out;
 }
 
+.hero-content:hover {
+  transform: scale(1.02);
+}
+
+/* 🔥 Hero Title */
 .hero-content h1 {
   font-family: 'Press Start 2P', cursive;
-  font-size: 4.5rem;
-  color: white;
+  font-size: 3.2rem;
   text-transform: uppercase;
-  text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.3);
-  display: flex;
-  flex-direction: column; /* ✅ Places <span> on the second line */
-  align-items: center; /* ✅ Centers text horizontally */
-  text-align: center; /* ✅ Ensures both lines are centered */
-  line-height: 1.2; /* ✅ Adjust line spacing */
-}
-
-.hero-content h1 span {
-  font-size: 3.5rem; /* ✅ Slightly smaller than h1 */
-  background: linear-gradient(to right, #ff00ff, #a258e4, #00ffff); /* ✅ Gradient effect */
+  background: linear-gradient(to right, #ff00ff, #a258e4, #00ffff);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: bold;
-  margin-top: 0.5rem; /* ✅ Add space between h1 and span */
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+  animation: subtle-glow 3s infinite alternate;
 }
 
+@keyframes subtle-glow {
+  from {
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+  }
+  to {
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6);
+  }
+}
+
+/* 💡 Subtitle */
 .hero-content p {
-  font-size: 20px;
+  font-size: 1.4rem;
   font-family: 'Poppins', sans-serif;
-  font-style: italic;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.85);
   margin-top: 1rem;
-  text-align: center;
+  line-height: 1.6;
 }
 
-/* ✅ Image Positioning */
-.hero-image {
-  position: absolute;
-  left: 40%;
-  top: 20%;
-  width: 75vw; /* ✅ Responsive width */ 
-  height: auto;
-  z-index: 1; /* ✅ Ensure image is above the gradient */
-}
-
-
-/* About Us Section */
-.about-section {
-  text-align: center;
-  padding: 5rem 10%;
+/* 🎯 Call to Action (Button) */
+.hero-btn {
+  margin-top: 2rem;
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
   color: white;
+  background: linear-gradient(90deg, #8a2be2, #ff00ff);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+
+.hero-btn:hover {
+  background: linear-gradient(90deg, #ff00ff, #8a2be2);
+  transform: scale(1.05);
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 768px) {
+  .hero-content {
+    padding: 1.5rem;
+  }
+
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-content p {
+    font-size: 1.2rem;
+  }
+
+  .hero-btn {
+    font-size: 1rem;
+    padding: 0.8rem 2rem;
+  }
+}
+
+
+/* ✅ About Section */
+.about-section {
+  padding: 5rem 10%;
+  text-align: center;
 }
 
 .about-section h2 {
-  font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
   text-transform: uppercase;
-  margin-bottom: 2rem;
+  background: linear-gradient(to right, #ff00ff, #a258e4, #00ffff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-/* Content Alignment */
 .about-content {
-  max-width: 800px; /* ✅ Keeps text aligned & readable */
+  max-width: 900px;
   margin: 0 auto;
-  text-align: left; /* ✅ Aligns "OUR VISION" & text to the left */
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
 }
 
-.about-content h3 {
-  padding: 2rem 0rem;
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.8rem;
-  text-transform: uppercase;
-  margin-bottom: 1rem;
-  text-align: left; /* ✅ Aligns "OUR VISION" to the left */
-}
-
-/* Paragraph Styling */
-.about-content p {
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.2rem;
-  color: rgba(255, 255, 255, 0.8);
-  line-height: 1.6;
-  margin-bottom: 1.2rem;
-  text-align: left; /* ✅ Aligns text properly */
-}
-
-/* Video Section */
-.video-container {
-  display: flex;
-  justify-content: center; /* ✅ Centers the video */
-  margin-top: 2rem;
-}
-
+/* ✅ Video Section */
 .about-video {
   width: 100%;
-  max-width: 700px;
-  border-radius: 10px;
-  background: rgba(255, 255, 255, 0.1);
-  padding: 10px;
+  max-width: 800px;
+  border-radius: 15px;
+  margin-top: 2rem;
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.4);
 }
 
-/* ======================= */
 /* ✅ Achievements Section */
-/* ======================= */
 .achievements-section {
-  text-align: center;
   padding: 5rem 10%;
+  text-align: center;
+}
+
+.achievement-card {
+  background: linear-gradient(135deg, rgba(151, 43, 255, 0.8), rgba(0, 212, 255, 0.8));
+  border-radius: 15px;
+  padding: 2rem;
+  width: 320px;
+  text-align: center;
   color: white;
-  overflow: hidden;
-  position: relative;
-  width: 100vw;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease-in-out;
 }
 
-/* ✅ Heading Styling */
-.achievements-section h2 {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 2.5rem;
-  text-transform: uppercase;
-  margin-bottom: 2rem;
+.achievement-card:hover {
+  transform: scale(1.05);
 }
 
-/* ✅ Wrapper for Smooth Scrolling */
+/* ✅ Infinite Scrolling Effect */
 .achievement-slider {
   display: flex;
   gap: 20px;
-  position: relative;
-  width: 100vw;
-  height: auto;
-  overflow: hidden; /* Prevents overflow issues */
+  overflow: hidden;
+  white-space: nowrap;
+  animation: slide 15s linear infinite;
 }
 
-/* ✅ Individual Cards */
-.achievement-card {
-  flex: 0 0 300px;
-  background: #6D44B8;
-  border-radius: 15px;
-  padding: 1.5rem;
-  text-align: center;
-  color: white;
-  width: 300px;
-  position: relative;
-  animation: moveCards 10s linear infinite;
+@keyframes slide {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
 
-/* ✅ Card Content */
-.achievement-card .date {
-  font-size: 1rem;
-  color: #ddd;
-}
-
-.achievement-card h3 {
-  font-size: 1.5rem;
-  margin: 10px 0;
-}
-
-.achievement-card .description {
-  font-size: 1rem;
-}
-
-/* ✅ Smooth Infinite Scrolling */
-@keyframes moveCards {
-  0% { transform: translateX(100vw); }  /* Start fully outside right */
-  100% { transform: translateX(-320px); } /* Move fully to left */
-}
-
-/* ✅ Delay each card so they enter one after another */
-.achievement-card:nth-child(1) { animation-delay: 0s; }
-.achievement-card:nth-child(2) { animation-delay: 2s; }
-.achievement-card:nth-child(3) { animation-delay: 4s; }
-.achievement-card:nth-child(4) { animation-delay: 6s; }
-.achievement-card:nth-child(5) { animation-delay: 8s; }
-
-
-
-/* =========================== */
-/* ✅ Share Your Thoughts Section */
-/* =========================== */
 /* ✅ Share Your Thoughts Section */
 .share-thoughts {
-  text-align: center; /* ✅ Keeps heading in center */
   padding: 5rem 10%;
-  color: white;
-  width: 100vw; /* ✅ Ensures full width */
+  text-align: center;
 }
 
-/* ✅ Section Heading (Centered) */
 .share-thoughts h2 {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
-  margin-bottom: 2rem;
-  text-align: center; /* ✅ Heading remains centered */
+  background: linear-gradient(to right, #ff00ff, #a258e4, #00ffff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-/* ✅ Content Wrapper */
-.share-thoughts-content {
-  max-width: 800px; /* ✅ Keeps text readable */
-  margin: 0 auto; /* ✅ Centers the wrapper */
-  text-align: left; /* ✅ Aligns text inside to the left */
+.share-link {
+  font-size: 1.5rem;
+  color: #00D4FF;
+  text-decoration: none;
+  border: 2px solid #00D4FF;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* ✅ Paragraph Styling */
-.share-thoughts p {
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.2rem;
-  color: rgba(255, 255, 255, 0.8);
-  line-height: 1.6;
-  margin-bottom: 1.2rem;
-  text-align: left; /* ✅ Ensures paragraph text is left-aligned */
+.share-link:hover {
+  background: #00D4FF;
+  color: #1b1b2f;
 }
 
-/* ✅ "Click here" Link (Left-Aligned) */
-.share-thoughts a {
-  font-size: 1.2rem;
-  color: white;
-  text-decoration: underline;
-  cursor: pointer;
-  display: block; /* ✅ Moves "Click here" to the next line */
-  text-align: left; /* ✅ Aligns the link to the left */
-}
-
-/* =========================== */
-/* ✅ Contact Us Footer Section */
-/* =========================== */
+/* ✅ Footer Section */
 .contact-us {
   background: #4A1C84;
   text-align: center;
@@ -267,10 +289,8 @@
 }
 
 .contact-us h2 {
-  font-family: 'Press Start 2P', cursive;
   font-size: 2rem;
   text-transform: uppercase;
-  margin-bottom: 1rem;
 }
 
 .social-icons {
@@ -280,13 +300,31 @@
   font-size: 2rem;
 }
 
-.social-icons i {
+.social-icons a {
   color: white;
   padding: 10px;
-  border-radius: 50%;
-  transition: 0.3s;
+  transition: 0.3s ease-in-out;
 }
 
-.social-icons i:hover {
-  color: #ddd;
+.social-icons a:hover {
+  color: #00D4FF;
+}
+
+/* ✅ Responsive Design */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 3rem;
+  }
+
+  .hero-content p {
+    font-size: 1.2rem;
+  }
+
+  .about-section h2 {
+    font-size: 2.5rem;
+  }
+
+  .achievement-card {
+    width: 280px;
+  }
 }
