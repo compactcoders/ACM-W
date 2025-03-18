@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import axios from "axios";
 import Navbar from "./components/Navbar";
 import HomePage from "./components/HomePage";
@@ -16,17 +16,18 @@ import Blogs from "./components/Blogs";
 const App = () => {
     const [backendData, setBackendData] = useState(null);
 
+    // Set background on page load
     useEffect(() => {
-        document.body.style.background = "rgb(27, 28, 30)"; 
-        document.body.style.backgroundAttachment = "fixed"; // ✅ Prevents scrolling issues
+        document.body.style.background = "rgb(27, 28, 30)";
+        document.body.style.backgroundAttachment = "fixed"; 
     }, []);
-    
 
+    // Fetch data from backend
     useEffect(() => {
         axios.get("http://localhost:5000/api/data")
             .then(response => {
                 if (response.status === 204) {
-                    setBackendData(null); // No content, set state to null
+                    setBackendData(null);
                 } else {
                     setBackendData(response.data.message || "");
                 }
@@ -41,6 +42,7 @@ const App = () => {
                 {backendData && <h2>Backend Response: {backendData}</h2>}
             </div>
             <Routes>
+                {/* Home Page is the Default Page */}
                 <Route path="/" element={<HomePage />} />
                 <Route path="/events" element={<EventsPage />} />
                 <Route path="/mega-events" element={<MegaEventsPage />} />
@@ -51,6 +53,9 @@ const App = () => {
                 <Route path="/share-your-thoughts" element={<ShareYourThoughts />} />
                 <Route path="/core-team" element={<CoreTeam />} />
                 <Route path="/blogs" element={<Blogs />} />
+
+                {/* Redirect unknown routes to HomePage */}
+                <Route path="*" element={<Navigate to="/" />} />
             </Routes>
         </Router>
     );

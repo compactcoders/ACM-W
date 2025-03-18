@@ -1,5 +1,7 @@
 /* Testimonials Container */
-
+.testimonials-container{
+  margin: 0 auto;
+}
   
   /* Section Title */
   .testimonials-container h2 {

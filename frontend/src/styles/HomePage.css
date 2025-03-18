@@ -13,20 +13,6 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Poppins:wght@300;400;600&display=swap');
-
-/* Global Styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background: #1b1b2f;
-  color: white;
-  font-family: 'Poppins', sans-serif;
-}
 
 /* 🚀 Hero Section */
 .hero-section {
@@ -193,6 +179,7 @@ body {
 
 .about-content {
   max-width: 900px;
+  text-align: justify;
   margin: 0 auto;
   background: rgba(255, 255, 255, 0.05);
   padding: 2rem;
