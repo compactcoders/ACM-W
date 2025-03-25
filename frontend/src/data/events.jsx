@@ -7,11 +7,11 @@ const events = [
         description2: " ",
         brochureImage:"/images/data visualisation/visualising data in python.jpg",
         images: [
-            "/images/data visualisation/dvp1.jpg",
-            "/images/data visualisation/dvp2.jpg",
-            "/images/data visualisation/dvp3.jpg",
+            "/images/data-visualisation/dvp1.jpg",
+            "/images/data-visualisation/dvp2.jpg",
+            "/images/data-visualisation/dvp3.jpg",
         ],
-        brochure: "/images/data visualisation/visualising data in python.jpg",
+        brochure: "/images/data-visualisation/visualising-data-in-python.jpg",
     },
     {
         id: 2,
