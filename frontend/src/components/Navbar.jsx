@@ -1,13 +1,14 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import "../styles/Navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBell } from "@fortawesome/free-solid-svg-icons";
+import { faBell, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import logo from "../assets/acm-logo.jpg";
-import logo2 from "../assets/sist.png"; 
 
 const Navbar = () => {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+    const location = useLocation();
+    const navigate = useNavigate();
 
     const toggleDropdown = () => {
         setIsDropdownOpen(!isDropdownOpen);
@@ -16,9 +17,14 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="navbar-left">
+                {/* Show back button except on Home page */}
+                {location.pathname !== "/" && (
+                    <button className="back-button" onClick={() => navigate(-1)}>
+                        <FontAwesomeIcon icon={faArrowLeft} />
+                    </button>
+                )}
                 <Link to="/" className="logo-link">
                     <img src={logo} alt="Logo" className="logo" />
-                    <img src={logo2} alt="Logo 2" className="second-logo" />
                 </Link>
             </div>
             <div className="navbar-right">

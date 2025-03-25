@@ -315,3 +315,48 @@ body {
     width: 280px;
   }
 }
+/* ✅ Hero Section Images with Glow */
+.hero-img-left{
+  position: absolute;
+  width: 400px; /* Adjust as needed */
+  height: auto;
+  top: 40%;
+  transform: translateY(-50%);
+  filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.7)); /* Glowing effect */
+  transition: transform 0.3s ease-in-out;
+}
+
+.hero-img-right {
+  position: absolute;
+  width: 200px; /* Adjust as needed */
+  height: auto;
+  top: 45%;
+  transform: translateY(-50%);
+  filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.7)); /* Glowing effect */
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Left and Right Positioning */
+.hero-img-left {
+  left: -36%;
+}
+
+.hero-img-right {
+  right: -25%;
+}
+
+/* Hover Effect to Enhance Glow */
+.hero-img-left:hover,
+.hero-img-right:hover {
+  filter: drop-shadow(0 0 40px rgb(255, 255, 255));
+  transform: translateY(-50%) scale(1.05);
+}
+
+/* ✅ Responsive Image Adjustment */
+@media (max-width: 768px) {
+  .hero-img-left,
+  .hero-img-right {
+    width: 80px; /* Slightly smaller for mobile */
+    filter: drop-shadow(0 0 10px rgba(255, 0, 255, 0.7));
+  }
+}
