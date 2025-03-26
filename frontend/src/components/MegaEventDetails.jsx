@@ -30,7 +30,6 @@ const MegaEventDetails = () => {
                             border: "1px solid black",
                         }}
                     />
-
                 </div>
                 <div className="event-overview-container">
                     <p id="event-overview">{event.overview}</p>
@@ -38,37 +37,36 @@ const MegaEventDetails = () => {
             </div>
 
             {Object.keys(event.dayPhotos).map((dayKey, index) => (
-                    <div key={index} className="day-section">
-                        <div className="brochure-description-container">
-                            <div className="brochure-container">
-                                <p className="day">{event[`day${index + 1}`]}</p>
-                                <img
-                                    src={event.brochureImages[index]}
-                                    alt={`Brochure for ${event[`day${index + 1}`]}`}
-                                    className="brochure-image"
-                                />
-                            </div>
-                            <div className="description-container">
-                                <p className="desc">{event[`description${index + 1}`]}</p>
-                            </div>
+                <div key={index} className="day-section">
+                    <div className="brochure-description-container">
+                        <div className="brochure-container">
+                            <p className="day">{event[`day${index + 1}`]}</p>
+                            <img
+                                src={event.brochureImages[index]}
+                                alt={`Brochure for ${event[`day${index + 1}`]}`}
+                                className="brochure-image"
+                            />
                         </div>
-                        <p id="glimpse">Glimpses from the event</p>
-                        <div className="photos-container">
-                            {event.dayPhotos[dayKey].map((photo, photoIndex) => (
-                                <img
-                                    key={photoIndex}
-                                    src={photo}
-                                    alt={`${event.name} - ${dayKey} photo ${photoIndex + 1}`}
-                                    className="day-photo"
-                                />
-                            ))}
+                        <div className="description-container">
+                            <p className="desc">{event[`description${index + 1}`]}</p>
                         </div>
                     </div>
-                )
-            )}
+                    <p id="glimpse">Glimpses from the event</p>
+                    <div className="photos-container">
+                        {event.dayPhotos[dayKey].map((photo, photoIndex) => (
+                            <img
+                                key={photoIndex}
+                                src={photo}
+                                alt={`${event.name} - ${dayKey} photo ${photoIndex + 1}`}
+                                className="day-photo"
+                            />
+                        ))}
+                    </div>
+                </div>
+            ))}
             <p id="conc">{event.conclusion}</p>
         </div>
-    )
+    );
 };
 
 export default MegaEventDetails;

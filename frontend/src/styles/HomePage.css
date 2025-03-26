@@ -237,35 +237,79 @@ body {
 }
 
 /* ✅ Share Your Thoughts Section */
-.share-thoughts {
-  padding: 5rem 10%;
+.share-thoughts-section {
   text-align: center;
+  padding: 4rem 10%;
+  background: rgba(255, 255, 255, 0.05); /* Subtle frosted effect */
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  margin: 3rem auto;
+  max-width: 900px;
 }
 
-.share-thoughts h2 {
+/* 📝 Heading Styling */
+.share-thoughts-section h2 {
   font-size: 2.5rem;
   text-transform: uppercase;
   background: linear-gradient(to right, #ff00ff, #a258e4, #00ffff);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin-bottom: 1.5rem;
 }
 
-.share-link {
-  font-size: 1.5rem;
-  color: #00D4FF;
-  text-decoration: none;
-  border: 2px solid #00D4FF;
-  padding: 10px 20px;
-  border-radius: 5px;
+/* 🗣️ Paragraph Styling */
+.share-thoughts-section p {
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+/* 🌟 Feedback Button */
+.feedback-button {
   display: inline-block;
-  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(90deg, #8a2be2, #ff00ff);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 0px 15px rgba(138, 43, 226, 0.7);
 }
 
-.share-link:hover {
-  background: #00D4FF;
-  color: #1b1b2f;
+.feedback-button:hover {
+  background: linear-gradient(90deg, #ff00ff, #8a2be2);
+  transform: scale(1.05);
+  box-shadow: 0px 0px 25px rgba(138, 43, 226, 1);
 }
+
+/* ✅ Responsive Design */
+@media (max-width: 768px) {
+  .share-thoughts-section {
+    padding: 3rem 5%;
+  }
+
+  .share-thoughts-section h2 {
+    font-size: 2rem;
+  }
+
+  .share-thoughts-section p {
+    font-size: 1.2rem;
+  }
+
+  .feedback-button {
+    font-size: 1rem;
+    padding: 0.8rem 2rem;
+  }
+}
+
+
 
 /* ✅ Footer Section */
 .contact-us {
@@ -360,3 +404,4 @@ body {
     filter: drop-shadow(0 0 10px rgba(255, 0, 255, 0.7));
   }
 }
+

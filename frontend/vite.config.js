@@ -7,3 +7,12 @@ export default defineConfig({
   plugins: [react()],
   base: "/ACM-W/", // Ensure the correct repository name is set
 });
+import postcssImport from 'postcss-import';
+
+export default {
+  css: {
+    postcss: {
+      plugins: [postcssImport()],
+    },
+  },
+};

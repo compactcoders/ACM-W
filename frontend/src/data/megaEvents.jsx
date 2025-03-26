@@ -1,9 +1,112 @@
+import inherither1 from "../assets/images/sheroic-week-2024/day-1/inherither1.jpg";
+import inherither2 from "../assets/images/sheroic-week-2024/day-1/inherither2.jpg";
+import inherither3 from "../assets/images/sheroic-week-2024/day-1/inherither3.jpg";
+import inherither4 from "../assets/images/sheroic-week-2024/day-1/inherither4.jpg";
+import inherither5 from "../assets/images/sheroic-week-2024/day-1/inherither5.jpg";
+import inherither6 from "../assets/images/sheroic-week-2024/day-1/inherither6.jpg";
+
+import femmefiesta1 from "../assets/images/sheroic-week-2024/day-3/femmefiesta1.jpg";
+import femmefiesta2 from "../assets/images/sheroic-week-2024/day-3/femmefiesta2.jpg";
+import femmefiesta3 from "../assets/images/sheroic-week-2024/day-3/femmefiesta3.jpg";
+import femmefiesta4 from "../assets/images/sheroic-week-2024/day-3/femmefiesta4.jpg";
+import femmefiesta5 from "../assets/images/sheroic-week-2024/day-3/femmefiesta5.jpg";
+import femmefiesta6 from "../assets/images/sheroic-week-2024/day-3/femmefiesta6.jpg";
+
+import innovateher1 from "../assets/images/sheroic-week-2024/day-4/innovateher1.jpg";
+import innovateher2 from "../assets/images/sheroic-week-2024/day-4/innovateher2.jpg";
+import innovateher3 from "../assets/images/sheroic-week-2024/day-4/innovateher3.jpg";
+import innovateher4 from "../assets/images/sheroic-week-2024/day-4/innovateher4.jpg";
+import innovateher5 from "../assets/images/sheroic-week-2024/day-4/innovateher5.jpg";
+import innovateher6 from "../assets/images/sheroic-week-2024/day-4/innovateher6.jpg";
+
+import crownher1 from "../assets/images/sheroic-week-2024/day-5/crownher1.jpg";
+import crownher2 from "../assets/images/sheroic-week-2024/day-5/crownher2.jpg";
+import crownher3 from "../assets/images/sheroic-week-2024/day-5/crownher3.jpg";
+import crownher4 from "../assets/images/sheroic-week-2024/day-5/crownher4.jpg";
+import crownher5 from "../assets/images/sheroic-week-2024/day-5/crownher5.jpg";
+import crownher6 from "../assets/images/sheroic-week-2024/day-5/crownher6.jpg";
+
+import b1 from "../assets/images/horizon-2024/code-rush/code-rush.jpg";
+import b2 from "../assets/images/horizon-2024/melodic-mystery/melodic-mystery.jpg";
+import b3 from "../assets/images/horizon-2024/hack-the-chit/hack-the-chit.jpg";
+import b4 from "../assets/images/horizon-2024/icy-fun-galore/icy-fun-galore.jpg";
+import b5 from "../assets/images/horizon-2024/canvas-carnival/canvas-carnival.jpg";
+import b6 from "../assets/images/horizon-2024/shark-tank/shark-tank.jpg";
+import b7 from "../assets/images/horizon-2024/type-race/type-race.jpg";
+import b8 from "../assets/images/horizon-2024/cine-craft/cine-craft.jpg";
+import b9 from "../assets/images/horizon-2024/just-a-minute/just-a-minute.jpg";
+import b10 from "../assets/images/horizon-2024/murder-mystery/murder-mystery.jpg";
+import b11 from "../assets/images/horizon-2024/tech-trivia/tech-trivia.jpg";
+import b12 from "../assets/images/horizon-2024/capture-the-flag/capture-the-flag.jpg";
+import b13 from "../assets/images/horizon-2024/design-showcase/design-showcase.jpg";
+import b14 from "../assets/images/horizon-2024/channel-surfing/channel-surfing.jpg";
+import b15 from "../assets/images/horizon-2024/code-craft/code-craft.jpg";
+
+import s1 from "../assets/images/sheroic-week-2024/day-1/inherither.jpg";
+import s2 from "../assets/images/sheroic-week-2024/day-2/sherise.jpg";
+import s3 from "../assets/images/sheroic-week-2024/day-3/femmefiesta.jpg";
+import s4 from "../assets/images/sheroic-week-2024/day-4/innovateher.jpg";
+import s5 from "../assets/images/sheroic-week-2024/day-5/crownher.jpg";
+
+import dayPhotos1_1 from "../assets/images/horizon-2024/code-rush/code-rush1.jpg";
+import dayPhotos1_2 from "../assets/images/horizon-2024/code-rush/code-rush2.jpg";
+import dayPhotos1_3 from "../assets/images/horizon-2024/code-rush/code-rush3.jpg";
+
+import dayPhotos2_1 from "../assets/images/horizon-2024/melodic-mystery/melodic-mystery1.jpg";
+import dayPhotos2_2 from "../assets/images/horizon-2024/melodic-mystery/melodic-mystery2.jpg";
+import dayPhotos2_3 from "../assets/images/horizon-2024/melodic-mystery/melodic-mystery3.jpg";
+
+import dayPhotos3_1 from "../assets/images/horizon-2024/hack-the-chit/hackthechit1.jpg";
+import dayPhotos3_2 from "../assets/images/horizon-2024/hack-the-chit/hackthechit2.jpg";
+import dayPhotos3_3 from "../assets/images/horizon-2024/hack-the-chit/hackthechit3.jpg";
+
+import dayPhotos4_1 from "../assets/images/horizon-2024/icy-fun-galore/icy-fun-galore1.jpg";
+import dayPhotos4_2 from "../assets/images/horizon-2024/icy-fun-galore/icy-fun-galore2.jpg";
+import dayPhotos4_3 from "../assets/images/horizon-2024/icy-fun-galore/icy-fun-galore3.jpg";
+
+import dayPhotos5_1 from "../assets/images/horizon-2024/canvas-carnival/canvas-carnival1.jpg";
+import dayPhotos5_2 from "../assets/images/horizon-2024/canvas-carnival/canvas-carnival2.jpg";
+import dayPhotos5_3 from "../assets/images/horizon-2024/canvas-carnival/canvas-carnival3.jpg";
+
+import dayPhotos8_1 from "../assets/images/horizon-2024/cine-craft/cine-craft1.jpg";
+import dayPhotos8_2 from "../assets/images/horizon-2024/cine-craft/cine-craft2.jpg";
+import dayPhotos8_3 from "../assets/images/horizon-2024/cine-craft/cine-craft3.jpg";
+
+import dayPhotos9_1 from "../assets/images/horizon-2024/just-a-minute/just-a-minute1.jpg";
+import dayPhotos9_2 from "../assets/images/horizon-2024/just-a-minute/just-a-minute2.jpg";
+import dayPhotos9_3 from "../assets/images/horizon-2024/just-a-minute/just-a-minute3.jpg";
+
+import dayPhotos10_1 from "../assets/images/horizon-2024/murder-mystery/murder-mystery1.jpg";
+import dayPhotos10_2 from "../assets/images/horizon-2024/murder-mystery/murder-mystery2.jpg";
+import dayPhotos10_3 from "../assets/images/horizon-2024/murder-mystery/murder-mystery3.jpg";
+
+import dayPhotos11_1 from "../assets/images/horizon-2024/tech-trivia/tech-trivia1.jpg";
+import dayPhotos11_2 from "../assets/images/horizon-2024/tech-trivia/tech-trivia2.jpg";
+import dayPhotos11_3 from "../assets/images/horizon-2024/tech-trivia/tech-trivia3.jpg";
+
+import dayPhotos12_1 from "../assets/images/horizon-2024/capture-the-flag/capture-the-flag1.jpg";
+import dayPhotos12_2 from "../assets/images/horizon-2024/capture-the-flag/capture-the-flag2.jpg";
+import dayPhotos12_3 from "../assets/images/horizon-2024/capture-the-flag/capture-the-flag3.jpg";
+
+import dayPhotos13_1 from "../assets/images/horizon-2024/design-showcase/design-showcase1.jpg";
+import dayPhotos13_2 from "../assets/images/horizon-2024/design-showcase/design-showcase2.jpg";
+import dayPhotos13_3 from "../assets/images/horizon-2024/design-showcase/design-showcase3.jpg";
+
+import dayPhotos14_1 from "../assets/images/horizon-2024/channel-surfing/channel-surfing1.jpg";
+import dayPhotos14_2 from "../assets/images/horizon-2024/channel-surfing/channel-surfing2.jpg";
+import dayPhotos14_3 from "../assets/images/horizon-2024/channel-surfing/channel-surfing3.jpg";
+
+import horizon from "../assets/images/horizon-2024/horizon.jpg"
+import sheroic_Week from "../assets/images/sheroic-week-2024/sheroic-week-brochure.jpg"
+
+
+
 const megaEvents = [
     {
         id: 1,
         name: "SHEROIC WEEK 2024",
         date: "05-03-2024 - 07-03-2024",
-        brochure: "/images/sheroic week 2024/sheroic week brochure.jpg" ,
+        brochure: sheroic_Week ,
         overview: "The Department of Computer Science and Engineering, in association with the\n" +
             "ACM-W Student Chapter, hosted a week-long festivity spanning from March\n" +
             "4th to March 8th, 2024, in tribute to International Women's Day. This event\n" +
@@ -91,47 +194,23 @@ const megaEvents = [
             "motivation, with far-reaching positive outcomes that extend well beyond the\n" +
             "event itself.\n ",
         brochureImages: [
-            "/images/sheroic week 2024/day 1/inherither.jpg",
-            "/images/sheroic week 2024/day 2/sherise.jpg",
-            "/images/sheroic week 2024/day 3/femmefiesta.jpg",
-            "/images/sheroic week 2024/day 4/innovateher.jpg",
-            "/images/sheroic week 2024/day 5/crownher.jpg",
+           s1,s2,s3,s4,s5
         ],
         dayPhotos: {
             day1: [
-                "/images/sheroic week 2024/day 1/inherither1.jpg",
-                "/images/sheroic week 2024/day 1/inherither2.jpg",
-                "/images/sheroic week 2024/day 1/inherither3.jpg",
-                "/images/sheroic week 2024/day 1/inherither4.jpg",
-                "/images/sheroic week 2024/day 1/inherither5.jpg",
-                "/images/sheroic week 2024/day 1/inherither6.jpg",
+                inherither1, inherither2, inherither3, inherither4, inherither5, inherither6
             ],
             day2: [
-                "cd ",
+                crownher1, crownher2,crownher3, crownher4, crownher5, crownher6
             ],
             day3: [
-                "/images/sheroic week 2024/day 3/femmefiesta1.jpg",
-                "/images/sheroic week 2024/day 3/femmefiesta2.jpg",
-                "/images/sheroic week 2024/day 3/femmefiesta3.jpg",
-                "/images/sheroic week 2024/day 3/femmefiesta4.jpg",
-                "/images/sheroic week 2024/day 3/femmefiesta5.jpg",
-                "/images/sheroic week 2024/day 3/femmefiesta6.jpg",
+                femmefiesta1, femmefiesta2, femmefiesta3, femmefiesta4, femmefiesta5, femmefiesta6
             ],
             day4: [
-                "/images/sheroic week 2024/day 4/innovateher1.jpg",
-                "/images/sheroic week 2024/day 4/innovateher2.jpg",
-                "/images/sheroic week 2024/day 4/innovateher3.jpg",
-                "/images/sheroic week 2024/day 4/innovateher4.jpg",
-                "/images/sheroic week 2024/day 4/innovateher5.jpg",
-                "/images/sheroic week 2024/day 4/innovateher6.jpg",
+                innovateher1, innovateher2, innovateher3, innovateher4, innovateher5, innovateher6
             ],
             day5: [
-                "/images/sheroic week 2024/day 5/crownher1.jpg",
-                "/images/sheroic week 2024/day 5/crownher2.jpg",
-                "/images/sheroic week 2024/day 5/crownher3.jpg",
-                "/images/sheroic week 2024/day 5/crownher4.jpg",
-                "/images/sheroic week 2024/day 5/crownher5.jpg",
-                "/images/sheroic week 2024/day 5/crownher6.jpg",
+                crownher1, crownher2,crownher3, crownher4, crownher5, crownher6
             ],
         },
     },
@@ -139,7 +218,7 @@ const megaEvents = [
         id: 2,
         name: "Horizon'24",
         date: "18/9/2024,19/9/2024",
-        brochure: "/images/horizon 2024/horizon.jpg",
+        brochure:horizon,
         overview:"Horizon is the annual inter-departmental symposium organized at Sathyabama\n" +
             "Institute of Science and Technology. Now in its second year featuring a dynamic mix\n" +
             "of 9 technical and 6 non-technical events held on 18th and 19th of July 2024, Horizon\n" +
@@ -237,92 +316,54 @@ const megaEvents = [
             "notable impact on student development, providing valuable experiences that\n" +
             "contribute to their academic, professional, and personal growth",
         brochureImages: [
-            "/images/horizon 2024/code rush/code rush.jpg",
-            "/images/horizon 2024/melodic mystery/melodic mystery.jpg",
-            "/images/horizon 2024/hack-the-chit/hack the chit.jpg",
-            "/images/horizon 2024/icy fun galore/Icy fun galore.jpg",
-            "/images/horizon 2024/canvas carnival/canvas carnival.jpg",
-            "/images/horizon 2024/shark tank/shark tank.jpg",
-            "/images/horizon 2024/type race/type race.jpg",
-            "/images/horizon 2024/cine craft/cine craft.jpg",
-            "/images/horizon 2024/just a minute/just a minute.jpg",
-            "/images/horizon 2024/murder mystery/murder mystery.jpg",
-            "/images/horizon 2024/tech trivia/tech trivia.jpg",
-            "/images/horizon 2024/capture the flag/capture the flag.jpg",
-            "/images/horizon 2024/design showcase/design showcase.jpg",
-            "/images/horizon 2024/channel surfing/channel surfing.jpg",
-            "/images/horizon 2024/code craft/code craft.jpg"
+            b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11,b12,b13,b14,b15
 
         ],
         dayPhotos: {
             day1:[
-                "/images/horizon 2024/code rush/code rush1.jpg",
-                "/images/horizon 2024/code rush/code rush2.jpg",
-                "/images/horizon 2024/code rush/code rush3.jpg",
+                dayPhotos1_1, dayPhotos1_2, dayPhotos1_3
             ],
             day2:[
-                "/images/horizon 2024/melodic mystery/melodic mystery1.jpg",
-                "/images/horizon 2024/melodic mystery/melodic mystery2.jpg",
-                "/images/horizon 2024/melodic mystery/melodic mystery3.jpg",
+                dayPhotos2_1, dayPhotos2_2, dayPhotos2_3
             ],
             day3:[
-                "/images/horizon 2024/hack-the-chit/hackthechit1.jpg",
-                "/images/horizon 2024/hack-the-chit/hackthechit2.jpg",
-                "/images/horizon 2024/hack-the-chit/hackthechit3.jpg",
+                dayPhotos3_1, dayPhotos3_2, dayPhotos3_3
             ],
             day4:[
-                "/images/horizon 2024/icy fun galore/icy fun galore1.jpg",
-                "/images/horizon 2024/icy fun galore/icy fun galore2.jpg",
-                "/images/horizon 2024/icy fun galore/icy fun galore3.jpg",
+                dayPhotos4_1, dayPhotos4_2, dayPhotos4_3
             ],
             day5:[
-                "/images/horizon 2024/canvas carnival/canvas carnival1.jpg",
-                "/images/horizon 2024/canvas carnival/canvas carnival2.jpg",
-                "/images/horizon 2024/canvas carnival/canvas carnival3.jpg",
+                dayPhotos5_1, dayPhotos5_2, dayPhotos5_3
             ],
             day6:[
-                " ",
+                dayPhotos11_1, dayPhotos11_2, dayPhotos11_3
             ],
             day7:[
-                 " ",
+                dayPhotos13_1, dayPhotos13_2, dayPhotos13_3
             ],
             day8:[
-                "/images/horizon 2024/cine craft/cine craft1.jpg",
-                "/images/horizon 2024/cine craft/cine craft2.jpg",
-                "/images/horizon 2024/cine craft/cine craft3.jpg",
+                dayPhotos8_1, dayPhotos8_2, dayPhotos8_3
             ],
             day9:[
-                "/images/horizon 2024/just a minute/just a minute1.jpg",
-                "/images/horizon 2024/just a minute/just a minute2.jpg",
-                "/images/horizon 2024/just a minute/just a minute3.jpg",
+                dayPhotos9_1, dayPhotos9_2, dayPhotos9_3
             ],
             day10:[
-                "/images/horizon 2024/murder mystery/murder mystery1.jpg",
-                "/images/horizon 2024/murder mystery/murder mystery2.jpg",
-                "/images/horizon 2024/murder mystery/murder mystery3.jpg",
+                dayPhotos10_1, dayPhotos10_2, dayPhotos10_3
             ],
             day11:[
-                "/images/horizon 2024/tech trivia/tech trivia1.jpg",
-                "/images/horizon 2024/tech trivia/tech trivia2.jpg",
-                "/images/horizon 2024/tech trivia/tech trivia3.jpg",
+                dayPhotos11_1, dayPhotos11_2, dayPhotos11_3
             ],
             day12:[
-                "/images/horizon 2024/capture the flag/capture the flag1.jpg",
-                "/images/horizon 2024/capture the flag/capture the flag2.jpg",
-                "/images/horizon 2024/capture the flag/capture the flag3.jpg",
+               dayPhotos12_1, dayPhotos12_2, dayPhotos12_3
             ],
             day13:[
-                "/images/horizon 2024/design showcase/design showcase1.jpg",
-                "/images/horizon 2024/design showcase/design showcase2.jpg",
-                "/images/horizon 2024/design showcase/design showcase3.jpg",
+               dayPhotos13_1, dayPhotos13_2, dayPhotos13_3
             ],
             day14:[
-                "/images/horizon 2024/channel surfing/channel surfing1.jpg",
-                "/images/horizon 2024/channel surfing/channel surfing2.jpg",
-                "/images/horizon 2024/channel surfing/channel surfing3.jpg",
+               dayPhotos14_1, dayPhotos14_2,dayPhotos14_3
             ],
             day15:[
-                ""
+                dayPhotos8_1, dayPhotos8_2, dayPhotos8_3
             ]
         },
 
