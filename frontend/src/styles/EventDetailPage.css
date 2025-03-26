@@ -1,7 +1,9 @@
 .event-detail-page {
-    padding: 20px;
+    padding: 20px; /* Reduce overall padding */
+    padding-top: 120px; /* Adjust based on navbar height */
     font-family: Arial, sans-serif;
 }
+
 
 #semi-title {
     font-size: 18px;

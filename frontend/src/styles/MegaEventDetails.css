@@ -1,8 +1,10 @@
 .megaEvent-detail-page {
     padding: 20px;
+    padding-top: 120px; /* Adjust based on navbar height */
     font-size: 25px;
     color: lightgray;
 }
+
 #event-overview {
     font-size: 18px;
     font-family: Arial,sans-serif;
